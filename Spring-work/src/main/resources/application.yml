@@ -1,0 +1,30 @@
+management:
+  security:
+    enabled: false
+  port: 8081
+  context-path: /aaa
+  
+  
+info:
+  app:
+    name: zhougyx
+    version: 1.0.0
+
+    
+  logging:
+    level:
+      root: info
+      org.springframework.web: info
+    file: logging-spring.lo
+    
+name: zhou
+spring:
+  profiles:
+    active: 
+
+
+---
+spring:
+  profiles: GoodBye
+name: GoodBye  
+
